@@ -1,0 +1,16 @@
+#Spring配置
+spring:
+
+  #Redis配置
+  redis:
+    host: 120.48.107.224
+    port: 6379
+    password:
+    database: 0
+    jedis:
+      pool:
+        max-active: 150
+        max-wait: 100
+        max-idle: 100
+        min-idle: 50
+    timeout: 5000ms
